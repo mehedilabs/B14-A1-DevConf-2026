@@ -98,3 +98,46 @@ margin-bottom: 90px;
   height: 74px;
   margin-top: 90px;
 }
+
+.common-section{
+  padding:80px 56px 43px;
+}
+
+.speakers-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 60px;
+  gap:20px;
+}
+.speakers-title{
+  text-align: center;
+  font-weight: bold;
+  font-size:56px ;
+margin-bottom:56px;
+
+}
+
+.speakers-card{
+  border: 1px solid rgb(217, 214, 214);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.speakers-card .card-text{
+  display: grid;
+  gap:8px;
+  padding:24px;
+}
+.speakers-card .card-text span{
+  color: #3B82F6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.speakers-card .card-text h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+.speakers-card .card-text p{
+  font-size: 14px;
+  font-weight: 400;
+}
