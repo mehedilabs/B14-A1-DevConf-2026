@@ -122,6 +122,10 @@ margin-bottom:56px;
   border-radius: 10px;
   overflow: hidden;
 }
+.speakers-card img{
+  width: 100%;
+  height: auto;
+}
 .speakers-card .card-text{
   display: grid;
   gap:8px;
